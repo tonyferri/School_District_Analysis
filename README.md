@@ -59,17 +59,28 @@ Excluding the scores from 9th graders at Thomas High School did not have a large
 ## References:
 ### Code examples:
 `reading_ninth_grade_THS = student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"),"reading_score"] = np.nan`
+
 `students_THS = student_data_df.loc[(student_data_df["school_name"] == "Thomas High School")]`
 `students_THS_count = students_THS["Student ID"].count()`
 
+
 ### Database pics:
 [Per School Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/per_school_summary_without_nan.png);
+
 [Per School Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/per_school_summary_with_nan.png);
+
 [District Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/district_summary_without_nan.png);
+
 [District Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/district_summary_with_nan.png);
+
 [Type Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/type_summary_without_nan.png);
+
 [Type Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/type_summary_with_nan.png);
+
 [Spending Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/spending_summary_without_nan.png);
+
 [Spending Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/spending_summary_with_nan.png);
+
 [Size Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/size_summary_without_nan.png);
+
 [Size Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/size_summary_with_nan.png);
