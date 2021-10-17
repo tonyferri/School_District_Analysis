@@ -58,9 +58,9 @@ Excluding the scores from 9th graders at Thomas High School did not have a large
 
 ## References:
 ### Code examples:
-'reading_ninth_grade_THS = student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"),"reading_score"] = np.nan'
-'students_THS = student_data_df.loc[(student_data_df["school_name"] == "Thomas High School")]'
-'students_THS_count = students_THS["Student ID"].count()'
+`reading_ninth_grade_THS = student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"),"reading_score"] = np.nan`
+`students_THS = student_data_df.loc[(student_data_df["school_name"] == "Thomas High School")]`
+`students_THS_count = students_THS["Student ID"].count()`
 
 ### Database pics:
 [Per School Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/per_school_summary_without_nan.png);
