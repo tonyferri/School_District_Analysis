@@ -1,4 +1,4 @@
-# School_District_Analysis
+# School District Analysis
 Analyzing performance trends in school's standardized testing
 
 ## Overview of the school district analysis:
@@ -54,12 +54,22 @@ The purpose of this analysis was to investigate math and reading performance of 
       * % passing both subjects decreased from 90.43% to 90.39%
 
 ## Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-### 
+Excluding the scores from 9th graders at Thomas High School did not have a large impact on the overall analysis.  The analysis called for decimal place formatting to one point in a few areas but in order to see any impact at all, two were required in certain instances.  That being said, there was a slight decrease in all three categories (math, reading, overall) for passing percentage.  The same can be said for average math grades.
 
+## References:
+### Code examples:
+'reading_ninth_grade_THS = student_data_df.loc[(student_data_df["school_name"] == "Thomas High School") & (student_data_df["grade"] == "9th"),"reading_score"] = np.nan'
+'students_THS = student_data_df.loc[(student_data_df["school_name"] == "Thomas High School")]'
+'students_THS_count = students_THS["Student ID"].count()'
 
-My notes ...
-
-Note that the instructions in the code asked for one decimal place, but two were needed to reflect any change in some categories (school size, 
-
-
-
+### Database pics:
+[Per School Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/per_school_summary_without_nan.png);
+[Per School Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/per_school_summary_with_nan.png);
+[District Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/district_summary_without_nan.png);
+[District Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/district_summary_with_nan.png);
+[Type Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/type_summary_without_nan.png);
+[Type Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/type_summary_with_nan.png);
+[Spending Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/spending_summary_without_nan.png);
+[Spending Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/spending_summary_with_nan.png);
+[Size Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/size_summary_without_nan.png);
+[Size Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/size_summary_with_nan.png);
