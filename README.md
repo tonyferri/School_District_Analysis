@@ -67,31 +67,31 @@ Excluding the scores from 9th graders at Thomas High School did not have a large
 
 ## Database pics:
 ### Per School Summary: Original
-![Per School Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/per_school_summary_without_nan.png);
+![Per School Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/per_school_summary_without_nan.png)
 
 ### Per School Summary: Modified
-![Per School Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/per_school_summary_with_nan.png);
+![Per School Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/per_school_summary_with_nan.png)
 
 ### District Summary: Original
-![District Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/district_summary_without_nan.png);
+![District Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/district_summary_without_nan.png)
 
 ### District Summary: Modified
-![District Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/district_summary_with_nan.png);
+![District Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/district_summary_with_nan.png)
 
 ### Type Summary: Original
-![Type Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/type_summary_without_nan.png);
+![Type Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/type_summary_without_nan.png)
 
 ### Type Summary: Modified
-![Type Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/type_summary_with_nan.png);
+![Type Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/type_summary_with_nan.png)
 
 ### Spending Summary: Original
-![Spending Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/spending_summary_without_nan.png);
+![Spending Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/spending_summary_without_nan.png)
 
 ### Spending Summary: Modified
-![Spending Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/spending_summary_with_nan.png);
+![Spending Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/spending_summary_with_nan.png)
 
 ### Size Summary: Original
-![Size Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/size_summary_without_nan.png);
+![Size Summary: Original](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/size_summary_without_nan.png)
 
 ### Size Summary: Modified
-![Size Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/size_summary_with_nan.png);
+![Size Summary: Modified](https://github.com/tonyferri/School_District_Analysis/blob/main/Resources/size_summary_with_nan.png)
